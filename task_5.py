@@ -4,7 +4,6 @@ class Results:
         self.draws = draws
         self.losses = losses
 
-
 class Football(Results):
     def __init__(self, victories, draws, losses):
         super().__init__(victories, draws, losses)
